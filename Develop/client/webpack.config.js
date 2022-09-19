@@ -18,8 +18,34 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      new HtmlWebpackPlugin ({
+        template:"./index.html",
+        title: "jate",
+      }),
+      new InjectManifest ({
+        swSrc: "./src-sw.js",
+        swDest: "src-sw.js",
+      }),
+      new WebpackPwaManifest ({
+        fingerprints: false,
+        inject: true,
+        name: "jate app",
+        short_name: "jate",
+        description: "progressive web app jate"
+      })
+
     ],
+
+
+
+
+
+
+
+
+
+
+
 
     module: {
       rules: [
