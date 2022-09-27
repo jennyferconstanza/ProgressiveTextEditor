@@ -6,6 +6,7 @@ ISC License (ISC) [![License: ISC](https://img.shields.io/badge/License-ISC-blue
 ## Table of Contents
 * [Acceptance Criteria](#acceptance-criteria)
 * [Installation Instructions](#installation-instructions)
+* [Links](#links)
 
 ## Acceptance Criteria 
 ```md
@@ -35,6 +36,11 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+
 ## Installation Instructions
+
 User should first run `npm i`, then `npm start`
+
 ## Links
+
+[URL to Heroku App](https://progressivetexteditor.herokuapp.com/)
