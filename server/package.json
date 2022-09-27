@@ -10,7 +10,11 @@
     "author": "Jennyfer Constanza",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "indexed": "^0.1.9",
+        "manifest": "^0.1.4",
+        "serviceworker": "^0.1.7",
+        "webpack": "^5.74.0"
     },
     "devDependencies": {
         "nodemon": "^2.0.4"

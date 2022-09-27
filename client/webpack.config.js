@@ -18,7 +18,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "jate",
+        title: "JATE",
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -32,11 +32,11 @@ module.exports = () => {
         description: "Progressive Web App JATE",
         background_color: "#032650",
         theme_color: "#032650",
-        start_url: "./",
-        publicPath: "./",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
-            src: path.resolve("src/images/logo.png'"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
